@@ -1,0 +1,9 @@
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\ResolveAssemblyReference.cache
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\LatihanVBNet.Resources.resources
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\LatihanVBNet.vbproj.GenerateResource.Cache
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\bin\Release\LatihanVBNet.exe
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\bin\Release\LatihanVBNet.pdb
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\bin\Release\LatihanVBNet.xml
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\LatihanVBNet.exe
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\LatihanVBNet.xml
+C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Release\LatihanVBNet.pdb
