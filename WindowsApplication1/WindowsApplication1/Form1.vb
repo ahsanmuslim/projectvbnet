@@ -101,9 +101,35 @@ Public Class Form1
             Call ClearData()
         End If
     End Sub
+    Private Sub ButtonUpdate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonUpdate.Click
+        Call KONEKSI()
 
-    Private Sub DataGridView1_CellContentClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellContentClick
+        Dim trouble As String = ""
 
+        If RadioYa.Checked = True Then
+            trouble = RadioYa.Text
+        ElseIf RadioTidak.Checked = True Then
+            trouble = RadioTidak.Text
+        End If
+
+        Dim Update As String = "UPDATE tbl_pekerjaan SET tanggal_mulai = '" & Format(Tanggal.Value, "yyyy-MM-dd HH:mm") & "',nama_modul = '" & TextNamaModul.Text & "', uraian = '" & TextUraian.Text & "', tindakan_perbaikan = '" & TextPerbaikan.Text & "', tindakan_pencegahan = '" & TextPencegahan.Text & "', status = '" & ComboStatus.Text & "', trouble = '" & trouble & "' WHERE no_pekerjaan = '" & TextNo.Text & "'"
+        CMD = New OdbcCommand(Update, CONN)
+        CMD.ExecuteNonQuery()
+        MsgBox("Update data berhasil")
+        Call KondisiAwal()
+        Call ClearData()
+    End Sub
+
+    Private Sub ButtonInput_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonInput.Click
+        Call ClearData()
+        Call KondisiAwal()
+    End Sub
+
+    Private Sub ButtonReport_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonReport.Click
+        CetakReport.Cetak()
+    End Sub
+
+    Private Sub DataGridView1_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DataGridView1.CellClick
         Dim i As Integer
         i = Me.DataGridView1.CurrentRow.Index
 
@@ -134,33 +160,5 @@ Public Class Form1
         ButtonHapus.Enabled = True
         ButtonUpdate.Enabled = True
         ButtonInput.Enabled = True
-    End Sub
-
-    Private Sub ButtonUpdate_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonUpdate.Click
-        Call KONEKSI()
-
-        Dim trouble As String = ""
-
-        If RadioYa.Checked = True Then
-            trouble = RadioYa.Text
-        ElseIf RadioTidak.Checked = True Then
-            trouble = RadioTidak.Text
-        End If
-
-        Dim Update As String = "UPDATE tbl_pekerjaan SET tanggal_mulai = '" & Format(Tanggal.Value, "yyyy-MM-dd HH:mm") & "',nama_modul = '" & TextNamaModul.Text & "', uraian = '" & TextUraian.Text & "', tindakan_perbaikan = '" & TextPerbaikan.Text & "', tindakan_pencegahan = '" & TextPencegahan.Text & "', status = '" & ComboStatus.Text & "', trouble = '" & trouble & "' WHERE no_pekerjaan = '" & TextNo.Text & "'"
-        CMD = New OdbcCommand(Update, CONN)
-        CMD.ExecuteNonQuery()
-        MsgBox("Update data berhasil")
-        Call KondisiAwal()
-        Call ClearData()
-    End Sub
-
-    Private Sub ButtonInput_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonInput.Click
-        Call ClearData()
-        Call KondisiAwal()
-    End Sub
-
-    Private Sub ButtonReport_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ButtonReport.Click
-        CetakReport.Cetak()
     End Sub
 End Class

@@ -7,3 +7,12 @@ C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\bin\Debug\LatihanVB
 C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Debug\LatihanVBNet.exe
 C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Debug\LatihanVBNet.xml
 C:\Users\ahmad\AppData\Local\Temporary Projects\LatihanVBNet\obj\Debug\LatihanVBNet.pdb
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\LatihanVBNet.exe
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\LatihanVBNet.xml
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\LatihanVBNet.pdb
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\bin\Debug\LatihanVBNet.exe
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\bin\Debug\LatihanVBNet.pdb
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\bin\Debug\LatihanVBNet.xml
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\ResolveAssemblyReference.cache
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\LatihanVBNet.Resources.resources
+D:\myCoding\VB.Net\Teckindo\Project\LatihanVBNet\LatihanVBNet\obj\Debug\LatihanVBNet.vbproj.GenerateResource.Cache

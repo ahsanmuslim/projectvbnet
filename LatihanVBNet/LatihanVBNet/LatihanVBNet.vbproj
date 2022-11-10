@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Arithmetic_Operator.vb" />
     <Compile Include="DB_Conversion.vb" />
+    <Compile Include="Employee.vb" />
     <Compile Include="Misc_Operator.vb" />
     <Compile Include="Operation.vb" />
     <Compile Include="Rectangle.vb" />
@@ -82,6 +83,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="With_statement.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">

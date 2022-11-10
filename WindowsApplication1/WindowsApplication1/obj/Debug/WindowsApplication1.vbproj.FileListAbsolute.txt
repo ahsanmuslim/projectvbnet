@@ -19,3 +19,14 @@ C:\Users\ahmad\OneDrive\Documents\Visual Studio 2008\Projects\WindowsApplication
 C:\Users\ahmad\OneDrive\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
 C:\Users\ahmad\OneDrive\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
 C:\Users\ahmad\OneDrive\Documents\Visual Studio 2008\Projects\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form2.resources
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.exe
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.xml
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.pdb
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\ResolveAssemblyReference.cache
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form1.resources
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Form2.resources
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.Resources.resources
+D:\myCoding\VB.Net\Teckindo\Project\WindowsApplication1\WindowsApplication1\obj\Debug\WindowsApplication1.vbproj.GenerateResource.Cache

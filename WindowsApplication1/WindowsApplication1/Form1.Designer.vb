@@ -131,6 +131,7 @@ Partial Class Form1
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Location = New System.Drawing.Point(28, 410)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect
         Me.DataGridView1.Size = New System.Drawing.Size(951, 247)
         Me.DataGridView1.TabIndex = 18
         '
@@ -199,7 +200,7 @@ Partial Class Form1
         Me.ComboStatus.Items.AddRange(New Object() {"Proses", "Close"})
         Me.ComboStatus.Location = New System.Drawing.Point(156, 282)
         Me.ComboStatus.Name = "ComboStatus"
-        Me.ComboStatus.Size = New System.Drawing.Size(198, 21)
+        Me.ComboStatus.Size = New System.Drawing.Size(170, 21)
         Me.ComboStatus.TabIndex = 26
         '
         'GroupBox1

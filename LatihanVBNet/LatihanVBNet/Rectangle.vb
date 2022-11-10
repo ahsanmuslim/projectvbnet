@@ -29,7 +29,11 @@
         'Arithmetic_Operator.Main()
         'DB_Conversion.Main()
         'Misc_Operator.Main()
-        Operation.main()
+        'Operation.main()
+        Dim Emp As New Employee
+        Emp.Main()
+        With_statement.Main()
+
 
     End Sub
 End Module
